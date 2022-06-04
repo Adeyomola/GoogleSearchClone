@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font: 13px arial, san-serif;
+}
+
+#Gmail {
+    padding: 13px 15px 0px 0px;
+}
+
+#Images {
+    padding: 13px 27px 0px 0px;
+}
+
+#svg1 {
+    padding: 8px 20px 0px 0px;
+}
+
+nav button {
+    padding: 10px;
+    font: 14px Helvetica;
+    background-color: #1A73E8;
+    border: #1A73E8;
+    border-radius: 4px;
+    color: #FFFFFF;
+    margin: 2px 8px 0px 0px;
+    border: none;
+    width: 96px;
+    height: 36px;
+}
+
+main {
+    width: 100%;
+    max-width: 100%;
+    margin: 6% auto auto auto;
+    min-height: 360px;
+    text-align: center;
+    display: grid;
+    justify-content: space-evenly;
+}
+
+#Google-Image {
+    max-width: 47%;
+    width: 75%;
+    margin: auto;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 582px;
+    max-width: 100%;
+    height: 46px;
+    border: 1px solid rgb(214, 210, 210);
+    padding: 5px 8px 0px 14px;
+    border-radius: 50px;
+    margin: 0px auto 20px auto;
+}
+
+#search-icon {
+    width: 33px;
+    height: 44px;
+    padding: 0px 13px 9px 0px;
+    margin: auto;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 487px;
+    max-width: 100%;
+    height: 34px;
+    margin: -1px 0px 0px 0px;
+}
+
+#voice-search {
+    width: 40px;
+    height: 30px;
+    padding: 0px 0px 5px 8px;
+    margin: auto;
+}
+
+.two-buttons {
+    display: flex;
+    justify-content: center;
+    height: 58px;
+    margin: -50px 0px 0px 0px;
+}
+
+.two-buttons button {
+    background-color: ghostwhite;
+    border: none;
+    padding: 0px 16px;
+    margin: 11px 6px;
+    height: 60%;
+    border-radius: 5px;
+    font: 14px arial;
+}
+
+article {
+    display: flex;
+    font: 13px arial;
+    margin: -30px auto;
+    align-items: flex-start;
+}
+
+article a {
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+footer {
+    width: 100%;
+    max-width: 100%;
+    background-color: #f2f2f2;
+    display: grid;
+    position: absolute;
+    bottom: 0;
+    margin: auto
+}
+
+#Nigeria {
+    padding: 15px 30px;
+    color: #70757a;
+    font: 15px arial;
+}
+
+.footer-links {
+    padding: 0px 20px;
+    display: flex;
+    /* justify-content: space-around; */
+    font: 14px arial;
+    border: 1px solid rgb(229, 226, 226);
+}
+
+.footer-links a {
+    color: #70757a;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.spacer1 {
+    content: "";
+    padding: 15px 230px 15px 10px;
+}
+
+.spacer2 {
+    content: "";
+    padding: 15px 206.5px 15px 0px;
+}
+
+#leaf {
+    margin: 0px 6px 0px 0px;
+    width: 12.25px;
+    height: 14px;
+}
+
+@media (min-width: 320px) and (max-width: 920px) {
+    #Google-Image {
+        width: 45%;
+    }
+    #voice-search {
+        display: none;
+    }
+    .search {
+        width: 95%;
+        height: 40px;
+        margin: -30px auto 0px auto;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .two-buttons {
+        display: none;
+    }
+    article {
+        margin: -70px 0px;
+    }
+    .footer-links {
+        align-items: center;
+    }
+    }
