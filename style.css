@@ -179,9 +179,11 @@ footer {
     #Google-Image {
         width: 45%;
     }
+
     #voice-search {
         display: none;
     }
+
     .search {
         width: 95%;
         height: 40px;
@@ -190,18 +192,21 @@ footer {
 
     input {
         width: 100%;
+        height: 30px;
     }
 
     .two-buttons {
         display: none;
     }
+
     article {
         margin: -70px 0px;
     }
+
     .footer-links {
         display: flex;
         width: auto;
         align-items: center;
         overflow-x: hidden;
     }
-    }
+}
